@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="icon_four" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 323.41 414.99">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 10px;
+      }
+    </style>
+  </defs>
+  <path id="four" class="cls-1" d="m318.41,253.84v46.32h-84.14v109.84h-61.55v-8.43h53.65v-109.31h84.14v-38.41h7.91ZM5,300.15h155.72v-7.91H5v7.91ZM234.27,5h-7.91v209.88h7.91V5ZM75.59,205.1l97.13-112.76-35.01-33.03-5.22,6.07,28.24,27.53-91.35,106.16,6.21,6.03Z"/>
+</svg>
