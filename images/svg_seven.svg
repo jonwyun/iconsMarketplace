@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="icon_seven" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 333.88 438.7">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 11.96px;
+      }
+    </style>
+  </defs>
+  <path id="seven" class="cls-1" d="m326.17,11.04l-172.23,421.68h-74.82v-7.27h71.48L319.54,8.03l6.62,3.02Zm-123.53,73.96H5.98v11.61l196.66-.38v-11.23Z"/>
+</svg>
