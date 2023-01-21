@@ -9,6 +9,18 @@
         stroke-width: 11.96px;
       }
     </style>
+    <script>
+      // select elements you want to interact with first
+      let sevenIcon = document.querySelector('#icon_seven');
+
+      // functions always go in the middle
+      function logMyId() {
+          console.log('clicked on this element:', this.id);
+      }
+
+      // event handling at the bottom
+      sevenIcon.addEventListener('click', logMyId);
+    </script>
   </defs>
   <path id="seven" class="cls-1" d="m326.17,11.04l-172.23,421.68h-74.82v-7.27h71.48L319.54,8.03l6.62,3.02Zm-123.53,73.96H5.98v11.61l196.66-.38v-11.23Z"/>
 </svg>

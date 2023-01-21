@@ -9,6 +9,18 @@
         stroke-width: 8px;
       }
     </style>
+    <script>
+      // select elements you want to interact with first
+      let sixIcon = document.querySelector('#icon_six');
+
+      // functions always go in the middle
+      function logMyId() {
+          console.log('clicked on this element:', this.id);
+      }
+
+      // event handling at the bottom
+      sixIcon.addEventListener('click', logMyId);
+    </script>
   </defs>
   <path id="six" class="cls-1" d="m307.06,301.5c-.76,22.33-40.18,115.72-150.41,116.03-80.06.23-122.41-34.06-151.41-89.78l6.04-3.9c23.15,47.81,59.67,86.21,144.63,86.06,110.69-.2,144.7-85.33,144.86-109.18.58-85.68-56.64-104.12-56.64-104.12l3.39-4.89s62.49,23.34,59.56,109.79Zm-223.32-11.96l4.89-.38c.75-21.84,25.26-38.42,69.74-38.28,22.49.07,41.91,4.22,53.2,12.12l1.29-1.23c-9.98-7.72-29.44-12.89-58.26-12.89-20.89,0-66.54,5.18-70.87,40.66Zm-23.21-89.99S27.36,51,160.4,32.09c40.31-5.73,85.22,19.76,85.22,19.76l18.07-44.61-6.78-2.26-15.81,38.96s-44.92-21.01-84.9-16.09C23.77,44.13,56.24,199.85,56.24,199.85l4.29-.3Z"/>
 </svg>
