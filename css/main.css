@@ -1,0 +1,288 @@
+/* 1. ---General Styles--- */
+
+.hidden { display: none;}
+
+body {
+    font-size: 16px;
+    color: black;
+    font-family: 'Noto Serif', serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+/* 2. Grid */
+
+.grid {   
+    display: grid;
+    grid-template-columns: repeat(5, 197px);
+    grid-column-gap: 30px;
+    padding-left: 47px;
+    padding-right: 47px;
+}
+
+/* 3. Header */
+
+h1 {
+    grid-column: 1/-1;
+    font-family: 'Monoton', cursive, sans-serif;
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 120px;
+}
+
+/* 4. Section - Numbers Icon */
+
+.section-title {
+    grid-column: 1/-1;
+    border-bottom: 1px solid black;
+}
+
+h2 {    
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 10px; 
+}
+
+p {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 80px; 
+}
+
+#icon-container { margin-top: 80px;}
+
+.wrapper { 
+    width: 30%;
+    height: 100px;
+    margin-left: 25%;
+    padding: 10% 10% 0 10%;
+}
+
+.icon-title {
+    margin-top: 25px;
+    text-align: center;
+    margin-left: 0;
+    margin-bottom: 80px;
+}
+
+#oneIcon {
+    grid-column: 1/1;
+}
+
+#oneIcon:hover .wrapper { 
+    border-radius: 5px;
+    padding: auto;
+    background-color: orange;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px #707070;
+}
+
+#oneIcon:hover .icon-title { 
+    color: orange;
+    width: auto;
+    padding: 5px 5px;
+}
+
+.active { background-color: orange;}
+
+#twoIcon {
+    grid-column: 2/2;
+}
+
+#twoIcon:hover .wrapper { 
+    border-radius: 5px;
+    padding: auto;
+    background-color: orange;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px #707070;
+}
+
+#twoIcon:hover .icon-title { 
+    color: orange;
+    width: auto;
+    padding: 5px 5px;
+}
+
+#threeIcon {
+    grid-column: 3/3;
+}
+
+#threeIcon:hover .wrapper { 
+    border-radius: 5px;
+    padding: auto;
+    background-color: orange;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px #707070;
+}
+
+#threeIcon:hover .icon-title { 
+    color: orange;
+    width: auto;
+    padding: 5px 5px;
+}
+
+#fourIcon {
+    grid-column: 4/4;
+}
+
+#fourIcon:hover .wrapper { 
+    border-radius: 5px;
+    padding: auto;
+    background-color: orange;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px #707070;
+}
+
+#fourIcon:hover .icon-title { 
+    color: orange;
+    width: auto;
+    padding: 5px 5px;
+}
+
+#fiveIcon {
+    grid-column: 5/5;
+}
+
+#fiveIcon:hover .wrapper { 
+    border-radius: 5px;
+    padding: auto;
+    background-color: orange;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px #707070;
+}
+
+#fiveIcon:hover .icon-title { 
+    color: orange;
+    width: auto;
+    padding: 5px 5px;
+}
+
+#icon_five {
+    width: 110%;
+    height: auto;
+}
+
+#sixIcon {
+    grid-column: 1/1;
+}
+
+#sixIcon:hover .wrapper { 
+    border-radius: 5px;
+    padding: auto;
+    background-color: orange;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px #707070;
+}
+
+#sixIcon:hover .icon-title { 
+    color: orange;
+    width: auto;
+    padding: 5px 5px;
+}
+
+object {
+    width: auto;
+    height: 81px;
+    margin-left: 0;
+}
+
+#sevenIcon {
+    grid-column: 2/2;
+}
+
+#sevenIcon:hover .wrapper { 
+    border-radius: 5px;
+    padding: auto;
+    background-color: orange;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px #707070;
+}
+
+#sevenIcon:hover .icon-title { 
+    color: orange;
+    width: auto;
+    padding: 5px 5px;
+}
+
+#eightIcon {
+    grid-column: 3/3;
+}
+
+#eightIcon:hover .wrapper { 
+    border-radius: 5px;
+    padding: auto;
+    background-color: orange;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px #707070;
+}
+
+#eightIcon:hover .icon-title { 
+    color: orange;
+    width: auto;
+    padding: 5px 5px;
+}
+
+#nineIcon {
+    grid-column: 4/4;
+}
+
+#nineIcon:hover .wrapper { 
+    border-radius: 5px;
+    padding: auto;
+    background-color: orange;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px #707070;
+}
+
+#nineIcon:hover .icon-title { 
+    color: orange;
+    width: auto;
+    padding: 5px 5px;
+}
+
+#tenIcon {
+    grid-column: 5/5;
+}
+
+#tenIcon:hover .wrapper { 
+    border-radius: 5px;
+    padding: auto;
+    background-color: orange;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px #707070;
+}
+
+#tenIcon:hover .icon-title { 
+    color: orange;
+    width: auto;
+    padding: 5px 5px;
+}
+
+#tenIconImage {
+    width: 120%;
+    height: auto;
+}
+
+article {
+    display: grid;
+    grid-column: 1/-1;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+article p { 
+    font-size: 55px;
+    font-weight: 2em;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+footer { margin-top: 80px;}
